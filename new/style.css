@@ -7,15 +7,15 @@ body{
 
 
 .radname{
-  background-color: #dfdfdf;
-  height: 30px;
-  left: -150;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  position: absolute;
-  top: 60;
-  width: 370px;
+    background-color: #dfdfdf;
+    height: 30px;
+    left: 20;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    top: 10;
+    width: 370px;
 }
 .container{
   display: block;
@@ -129,15 +129,15 @@ body{
 }
 .phonenumber{
 
-    background-color: #dfdfdf ;
+    background-color: #dfdfdf;
     height: 30px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     position: absolute;
     width: 370px;
-    left: 170px;
-    top: 13px;px;
+    left: 100;
+    top: -30px;
 }
 .whatsappno{
     background-color: #dfdfdf;
@@ -328,13 +328,13 @@ body{
   width: 773px;
 }
 .volunteer-registration-form .phone-number {
-  height: 50px;
-  left: -50px;
-  letter-spacing: 0.00px;
-  line-height: 18px;
-  position: absolute;
-  top: -6px;
-  width: 695px;
+    height: 50px;
+    left: -75;
+    letter-spacing: 0.00px;
+    line-height: 18px;
+    position: absolute;
+    top: -50px;
+    width: 695px;
 }
 .volunteer-registration-form .please-specify {
   height: 32px;
