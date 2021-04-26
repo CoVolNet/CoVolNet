@@ -1,11 +1,12 @@
-* {
-  margin: 1px;
+*{
+    margin: 1px;
 }
-body {
-  font-family: "Montserrat", sans-serif;
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
-.radname {
+
+.radname{
   background-color: #dfdfdf;
   height: 30px;
   left: -150;
@@ -16,7 +17,7 @@ body {
   top: 60;
   width: 370px;
 }
-.container {
+.container{
   display: block;
   position: relative;
   padding-left: 35px;
@@ -29,13 +30,13 @@ body {
   user-select: none;
 }
 
-.container input {
+.container input{
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
 
-.checkmark {
+.checkmark{
   position: absolute;
   top: 0;
   left: 0;
@@ -44,24 +45,26 @@ body {
   background-color: #eee;
   border-radius: 50%;
 }
-.container:hover input ~ .checkmark {
+.container:hover input~ .checkmark{
   background-color: #ccc;
 }
-.container input:checked ~ .checkmark {
+.container input:checked ~
+.checkmark{
   background-color: #2196f3;
 }
 
-.checkmark:after {
+.checkmark:after{
   content: "";
   position: absolute;
   display: none;
 }
 
-.container input:checked ~ .checkmark:after {
+.container input:checked ~
+.checkmark:after{
   display: block;
 }
 
-.container .checkmark:after {
+.container .checkmark:after{
   top: 9px;
   left: 9px;
   width: 8px;
@@ -69,10 +72,10 @@ body {
   border-radius: 50%;
   background: white;
 }
-.button {
-  border-radius: 10px;
-  background-color: rgba(100, 124, 151, 1);
-  height: 70px;
+.button{
+    border-radius: 10px;
+    background-color: rgba(100,124,151,1.0);
+    height: 70px;
   left: -78px;
   position: absolute;
   top: -73px;
@@ -80,70 +83,74 @@ body {
   border: none;
   text-align: center;
   font-size: 22px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat',sans-serif;
   padding: 20px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
 }
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+.button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
 
-.button span:after {
-  content: "\00bb";
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+.button span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+
 }
-.button:hover span {
-  padding-right: 25px;
+.button:hover span{
+    padding-right: 25px;
 }
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
+.button:hover span:after{
+    opacity: 1;
+    right: 0;
 }
 
-.texthead {
-  font-family: "Montserrat", sans-serif;
-  margin: 2px;
-  padding-top: 7px;
+.texthead{
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px;
+    padding-top: 7px;
 }
 .volunteer-registration-form {
   align-items: flex-end;
-  background-color: rgba(209, 221, 235, 1);
+  background-color: rgba(209,221,235,1.0);
   display: flex;
   flex-direction: column;
   height: 1500px;
   padding: 73px 8px;
   width: 1024px;
 }
-.phonenumber {
-  background-color: #dfdfdf;
-  height: 30px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  position: absolute;
-  width: 370px;
+.phonenumber{
+
+    background-color: #dfdfdf ;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    width: 370px;
+    left: 170px;
+    top: 13px;px;
 }
-.whatsappno {
-  background-color: #dfdfdf;
-  height: 30px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  position: absolute;
-  width: 370px;
+.whatsappno{
+    background-color: #dfdfdf;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    width: 370px;
 }
 
-.Name {
-  background-color: #dfdfdf;
+.Name{
+    background-color: #dfdfdf;
   height: 30px;
   /* left: 237px; */
   display: inline-block;
@@ -152,42 +159,46 @@ body {
   position: absolute;
   top: 28px;
   width: 370px;
+
 }
-.locationstate {
-  background-color: #dfdfdf;
-  height: 30px;
-  /* left: 237px; */
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  position: absolute;
-  top: -10px;
-  width: 370px;
+.locationstate{
+    background-color: #dfdfdf;
+    height: 30px;
+    /* left: 237px; */
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    top: -10px;
+    width: 370px;
+
+
 }
 
-.locationdist {
-  background-color: #dfdfdf;
-  height: 30px;
-  /* left: 237px; */
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  position: absolute;
-  top: -10px;
-  width: 370px;
+.locationdist{
+    background-color: #dfdfdf;
+    height: 30px;
+    /* left: 237px; */
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    top: -10px;
+    width: 370px;
+
 }
-.fname {
-  background-color: #dfdfdf;
-  height: 30px;
-  width: 740px;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  position: absolute;
+.fname{
+    background-color: #dfdfdf;
+    height: 30px;
+    width: 740px;
+    border-radius:4px;
+    border:1px solid #ccc;
+    position: absolute;
 }
 .volunteer-registration-form .district {
   height: 35px;
   left: 297px;
-  letter-spacing: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   top: -73px;
@@ -223,16 +234,16 @@ body {
 }
 .volunteer-registration-form .flex-col-item {
   height: 32px;
-  letter-spacing: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   margin-top: 17px;
   min-height: 32px;
   width: 110px;
 }
 .volunteer-registration-form .full-name {
-  letter-spacing: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
-  margin-right: 1px;
+  margin-right: 1.0px;
   margin-top: 17px;
   min-height: 24px;
   width: 708px;
@@ -252,7 +263,7 @@ body {
   font-family: var(--font-family-montserrat-semibold);
   font-size: var(--font-size-m);
   font-weight: 600;
-  letter-spacing: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   margin-left: 75px;
   margin-top: 54px;
@@ -266,7 +277,7 @@ body {
   border-radius: 45px;
   display: flex;
   flex-direction: column;
-  margin-left: 1px;
+  margin-left: 1.0px;
   min-height: 1206px;
   padding: 1px 5px;
   width: 869px;
@@ -318,21 +329,22 @@ body {
 }
 .volunteer-registration-form .phone-number {
   height: 50px;
-  left: -78px;
-  letter-spacing: 0px;
+  left: -50px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
-  top: -73px;
+  top: -6px;
   width: 695px;
 }
 .volunteer-registration-form .please-specify {
   height: 32px;
-  letter-spacing: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   margin-bottom: -2px;
   margin-left: 19px;
   min-height: 32px;
   width: 219px;
+  
 }
 .volunteer-registration-form .rectangle-10 {
   background-color: var(--bon-jour);
@@ -361,7 +373,7 @@ body {
 .volunteer-registration-form .rectangle-3 {
   background-color: var(--bon-jour);
   height: 51px;
-  margin-right: 3px;
+  margin-right: 3.0px;
   margin-top: 12px;
   width: 706px;
 }
@@ -382,7 +394,7 @@ body {
   width: 331px;
 }
 .volunteer-registration-form .rectangle-9 {
-  background-color: rgba(100, 124, 151, 1);
+  background-color: rgba(100,124,151,1.0);
   border-radius: 10px;
   height: 50px;
   left: -78px;
@@ -397,7 +409,7 @@ body {
   font-weight: 600;
   height: 30px;
   left: -78px;
-  letter-spacing: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   text-align: center;
@@ -406,25 +418,25 @@ body {
 }
 .volunteer-registration-form .surname {
   height: 32px;
-  letter-spacing: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   min-height: 32px;
   width: 110px;
 }
 .volunteer-registration-form .text-1 {
-  color: black;
-  font-family: font-family-montserrat-bold;
-  font-size: font-size-xl;
-  font-weight: 700;
-  letter-spacing: 0px;
-  line-height: 32px;
-  min-height: 41px;
-  width: 707px;
+    color: black;
+    font-family: font-family-montserrat-bold;
+    font-size: font-size-xl;
+    font-weight: 700;
+    letter-spacing: 0.00px;
+    line-height: 32px;
+    min-height: 41px;
+    width: 707px;
 }
 .volunteer-registration-form .text-2 {
   height: 41px;
   left: -78px;
-  letter-spacing: 0px;
+  letter-spacing: 0.00px;
   line-height: 18px;
   position: absolute;
   top: -73px;
@@ -433,7 +445,7 @@ body {
 .volunteer-registration-form .text-3 {
   height: 37px;
   left: 0px;
-  letter-spacing: 0px;
+  letter-spacing: 0.00px;
   line-height: 30px;
   position: absolute;
   top: 68px;
@@ -442,7 +454,7 @@ body {
 .volunteer-registration-form .text-4 {
   height: 45px;
   left: 0px;
-  letter-spacing: 0px;
+  letter-spacing: 0.00px;
   line-height: 40px;
   position: absolute;
   top: 55px;
@@ -454,7 +466,7 @@ body {
   font-family: var(--font-family-montserrat-regular);
   font-size: var(--font-size-l);
   height: 47px;
-  letter-spacing: 0px;
+  letter-spacing: 0.00px;
   line-height: 20px;
   margin-top: 65px;
   min-height: 47px;
@@ -464,9 +476,9 @@ body {
   color: var(--black);
   font-family: var(--font-family-montserrat-regular);
   font-size: var(--font-size-s);
-  letter-spacing: 0px;
+  letter-spacing: 0.00px;
   line-height: 15px;
-  margin-right: 1px;
+  margin-right: 1.0px;
   margin-top: 38px;
   min-height: 21px;
   width: 708px;
