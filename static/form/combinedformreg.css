@@ -1,6 +1,18 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.fname{
+  background-color: #dfdfdf;
+  height: 30px;
+  width: 740px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  position: absolute;
+}
+
 .vol-reg-form-combined {
   align-items: flex-end;
-  background-color: var(--geyser);
+  background-color: rgba(209, 221, 235, 1);
   display: flex;
   flex-direction: column;
   height: 3200px;
@@ -299,7 +311,7 @@
 }
 .vol-reg-form-combined .overlap-group {
   align-self: center;
-  background-color: var(--white);
+  background-color: white;
   border-radius: 45px;
   height: 3003px;
   margin-left: 1.0px;
@@ -373,6 +385,7 @@
 .vol-reg-form-combined .rectangle- {
   background-color: var(--bon-jour);
   height: 51px;
+
   left: -78px;
   position: absolute;
   top: -25px;
@@ -444,7 +457,7 @@
   width: 346px;
 }
 .vol-reg-form-combined .required-fields {
-  color: var(--red-2);
+  color:red;
   font-family: var(--font-family-montserrat-regular);
   font-size: var(--font-size-s);
   left: 72px;
@@ -465,10 +478,189 @@
 }
 .vol-reg-form-combined .span1 {
   font-family: var(--font-family-montserrat-semibold);
+  color: red;
 }
 .vol-reg-form-combined .span1-1 {
   font-family: var(--font-family-montserrat-regular);
+  color: red;
 }
+.state-ut{
+  background-color: #dfdfdf;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute;
+  top: -10px;
+  width: 370px;
+}
+.dist{
+  background-color: #dfdfdf;
+  height: 30px;
+  /* left: 237px; */
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute;
+  top: -10px;
+  width: 370px;
+
+}
+.radname{
+  
+  background-color: #dfdfdf;
+  height: 30px;
+  left: -20;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute;
+  top: 5;
+  width: 450;
+
+}
+.phonenumber {
+  background-color: #dfdfdf;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute;
+  width: 370px;
+  /* left: 150; */
+  /* top: -30px; */
+}
+.whatsappno {
+  background-color: #dfdfdf;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute;
+  width: 370px;
+}
+.insta-textbox{
+  background-color: #dfdfdf;
+  height: 30px;
+  width: 340px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  position: absolute;
+}
+.twitter-textbox{
+  background-color: #dfdfdf;
+  height: 30px;
+  width: 340px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  position: absolute;
+}
+.spec-skill {
+  background-color: #dfdfdf;
+  height: 30px;
+  width: 340px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  position: absolute;
+}
+.container{
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.container:hover input~ .checkmark{
+  background-color: #ccc;
+}
+.container input:checked ~
+.checkmark{
+  background-color: #2196f3;
+}
+
+.checkmark:after{
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~
+.checkmark:after{
+  display: block;
+}
+
+.container .checkmark:after{
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.button{
+  border-radius: 10px;
+  background-color: rgba(100,124,151,1.0);
+  height: 70px;
+  left: -10;
+  position: absolute;
+  top: -60;
+  width: 200px;
+  border: none;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Montserrat',sans-serif;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+
+}
+.button:hover span{
+  padding-right: 25px;
+}
+.button:hover span:after{
+  opacity: 1;
+  right: 0;
+}
+
+
+
 .vol-reg-form-combined .submit {
   color: var(--white);
   font-family: var(--font-family-montserrat-semibold);
@@ -500,16 +692,19 @@
   width: 110px;
 }
 .vol-reg-form-combined .text-1 {
-  color: var(--black);
+   /* color: var(--black);
   font-family: var(--font-family-montserrat-bold);
   font-size: var(--font-size-xl);
-  font-weight: 700;
-  left: 81px;
-  letter-spacing: 0;
+  /* font-weight: 700; */
+   /* left: 50px;  */
+  /* letter-spacing: 0;
   line-height: 32px;
   position: absolute;
   top: 93px;
-  width: 707px;
+  width: 707px;  */ 
+  font-family: "Montserrat", sans-serif;
+    margin: 50px;
+    padding-top: 7px;
 }
 .vol-reg-form-combined .text-10 {
   height: 32px;
