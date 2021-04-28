@@ -6,13 +6,16 @@
   overflow: hidden;
   width: 1024px;
 }
-.texthead{
-  font-family: 'Montserrat', sans-serif;
-  margin: 50px;
+
+.texthead {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding-top: 7px;
+  text-align: center;
 }
-body{
-  font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 .vol-reg-form-page-2 .ellipse-1 {
   border-radius: 11.5px;
@@ -22,33 +25,29 @@ body{
   top: 259px;
   width: 23px;
 }
-.insta-textbox{
+.insta-textbox {
   background-color: #dfdfdf;
   height: 30px;
   width: 340px;
   border-radius: 4px;
   border: 1px solid #ccc;
   position: absolute;
-
 }
-.twitter-textbox{
+.twitter-textbox {
   background-color: #dfdfdf;
   height: 30px;
   width: 340px;
   border-radius: 4px;
   border: 1px solid #ccc;
   position: absolute;
-
 }
-.spec-skill{
+.spec-skill {
   background-color: #dfdfdf;
   height: 30px;
   width: 340px;
   border-radius: 4px;
   border: 1px solid #ccc;
   position: absolute;
-
-
 }
 .button {
   border-radius: 10px;
@@ -67,30 +66,29 @@ body{
   cursor: pointer;
   margin: 5px;
 }
-.button span{
+.button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.button span:after{
-  content: '\00bb';
+.button span:after {
+  content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
   right: -20px;
   transition: 0.5s;
-
 }
-.button:hover span{
+.button:hover span {
   padding-right: 25px;
 }
-.button:hover span:after{
+.button:hover span:after {
   opacity: 1;
   right: 0;
 }
-.container{
+.container {
   display: block;
   position: relative;
   padding-left: 35px;
@@ -103,13 +101,13 @@ body{
   user-select: none;
 }
 
-.container input{
+.container input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
 
-.checkmark{
+.checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -118,26 +116,24 @@ body{
   background-color: #eee;
   border-radius: 50%;
 }
-.container:hover input~ .checkmark{
+.container:hover input ~ .checkmark {
   background-color: #ccc;
 }
-.container input:checked ~
-.checkmark{
+.container input:checked ~ .checkmark {
   background-color: #2196f3;
 }
 
-.checkmark:after{
+.checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.container input:checked ~
-.checkmark:after{
+.container input:checked ~ .checkmark:after {
   display: block;
 }
 
-.container .checkmark:after{
+.container .checkmark:after {
   top: 9px;
   left: 9px;
   width: 8px;
@@ -351,7 +347,7 @@ body{
 }
 .vol-reg-form-page-2 .overlap-group {
   align-items: flex-end;
-  background-color:rgba(209, 221, 235, 1) ;
+  background-color: rgba(209, 221, 235, 1);
   display: flex;
   flex-direction: column;
   min-height: 2441px;
@@ -360,10 +356,10 @@ body{
 }
 .vol-reg-form-page-2 .overlap-group1 {
   align-self: center;
-  background-color:white;
+  background-color: white;
   border-radius: 45px;
   height: 2187px;
-  margin-left: 1.0px;
+  margin-left: 1px;
   position: relative;
   width: 869px;
 }
@@ -589,7 +585,7 @@ body{
   top: 149px;
   width: 708px;
   /* --------------------------------- */
-    /* color: var(--black);
+  /* color: var(--black);
    
     font-size: var(--font-size-s);
     letter-spacing: 0px;
