@@ -69,11 +69,14 @@
         <div class="overlap-group5">
           <!-- <div class="rectangle-27"></div>
           <div class="submit">Submit</div> -->
-          <button class="button">
+          <button class="button" id="open-button" onclick="openForm()"> <!--jsfile-->
             <span style="color: white">Submit</span>
           </button>
         </div>
       </div>
+         
+
+        
       <div class="required-fields">*Required fields</div>
       <div class="rectangle-30"><input type="text" class="whatsappno"></div>
       <div class="text-6 montserrat-normal-red-18px">
@@ -161,5 +164,23 @@
     <div class="text-5">Never submit passwords or any other personal details that aren&#39;t asked.</div>
   </div>
 </div>
+ <!-- ---------------------Pop-up Form----------------------------------------------------------------- -->
+ 
+ <div class="form-popup" id="myForm">
+  <div class="form-inner-popup">
+  <form action="index.html" class="frm-container">
+  <!-- Details -->
+  <p>Thanks for the Registration!! We will contact you soon</p> 
+  <button type="submit" class="btn"><span style="color: white;">OK</span></button>
+  </form>
+</div>
+</div> 
+
+<script>
+  function openForm(){
+    document.getElementById("myForm").style.display="block";
+
+  }
+</script>
 </body>
 </html>
