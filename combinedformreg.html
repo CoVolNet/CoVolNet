@@ -11,8 +11,8 @@
       rel="stylesheet"
     />
   </head>
-<body>
-
+  <script src="./static/form/form.js"></script>
+  <body>
 
 
 <div class="container-center-horizontal">
@@ -35,9 +35,9 @@
       <div class="overlap-group1">
         <div class="group-4">
           <div class="flex-col-1">
-            <div class="ellipse-1 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
-            <div class="ellipse- border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
-            <div class="ellipse- border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
+            <div class="ellipse-1 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
+            <div class="ellipse- border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
+            <div class="ellipse- border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio" id="chkOthers" onclick="EnableDisableTextBox(this)"><span class="checkmark"></span></label></div>
           </div>
           <div class="flex-col">
             <div class="surname montserrat-regular-normal-black-18px">English</div>
@@ -46,7 +46,7 @@
           </div>
           <div class="please-specify montserrat-regular-normal-black-18px">Please specify</div>
         </div>
-        <div class="rectangle-28"><input type="text" class="radname" ></div>
+        <div class="rectangle-28"><input type="text" class="radname" disabled="disabled" id="other"></div>
       </div>
       <div class="text-3">
         <span class="span montserrat-regular-normal-black-18px"
@@ -92,18 +92,18 @@
       <div class="rectangle-32"><input type="text" class="twitter-textbox"></div>
       <div class="twitter montserrat-regular-normal-black-18px">Twitter</div>
       <div class="monday montserrat-regular-normal-black-18px">Monday</div>
-      <div class="ellipse-23 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-23 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
       <div class="tuesday montserrat-regular-normal-black-18px">Tuesday</div>
-      <div class="ellipse-24 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
-      <div class="ellipse-25 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-24 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-25 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
       <div class="wednesday montserrat-regular-normal-black-18px">Wednesday</div>
       <div class="thursday montserrat-regular-normal-black-18px">Thursday</div>
-      <div class="ellipse-26 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-26 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
       <div class="friday montserrat-regular-normal-black-18px">Friday</div>
-      <div class="ellipse-27 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
-      <div class="ellipse-28 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-27 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-28 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
       <div class="saturday montserrat-regular-normal-black-18px">Saturday</div>
-      <div class="ellipse-29 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-29 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
       <div class="sunday montserrat-regular-normal-black-18px">Sunday</div>
       <div class="text-8 montserrat-normal-red-18px">
         <span class="span montserrat-regular-normal-black-18px"
@@ -111,24 +111,24 @@
         ><span class="span montserrat-regular-normal-red-18px" style="color: red;">*</span>
       </div>
       <div class="x7am-10am montserrat-regular-normal-black-18px">7am - 10am</div>
-      <div class="ellipse-30 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-30 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
       <div class="x10am-1pm montserrat-regular-normal-black-18px">10am - 1pm</div>
-      <div class="ellipse-31 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
-      <div class="ellipse-32 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-31 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-32 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
       <div class="x1pm-4pm montserrat-regular-normal-black-18px">1pm - 4pm</div>
       <div class="x4pm-7pm montserrat-regular-normal-black-18px">4pm - 7pm</div>
-      <div class="ellipse-33 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-33 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
       <div class="x7pm-9pm montserrat-regular-normal-black-18px">7pm - 9pm</div>
-      <div class="ellipse-34 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
-      <div class="ellipse-35 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-34 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-35 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
       <div class="x9pm-11pm montserrat-regular-normal-black-18px">9pm - 11pm</div>
-      <div class="ellipse-36 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-36 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
       <div class="x11pm-1am montserrat-regular-normal-black-18px">11pm - 1am</div>
       <div class="x1am-3am montserrat-regular-normal-black-18px">1am - 3am</div>
-      <div class="ellipse-37 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
-      <div class="ellipse-38 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-37 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-38 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
       <div class="x3am-5am montserrat-regular-normal-black-18px">3am - 5am</div>
-      <div class="ellipse-39 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-39 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
       <div class="x5am-7am montserrat-regular-normal-black-18px">5am - 7am</div>
       <div class="text-9 montserrat-normal-red-18px">
         <span class="span montserrat-regular-normal-black-18px"
@@ -138,12 +138,12 @@
       <div class="text-10 montserrat-regular-normal-black-18px">
         Verification of Information for social media and SOS calls
       </div>
-      <div class="ellipse-40 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-40 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
       <div class="text-11 montserrat-regular-normal-black-18px">
         Collate and put together Information (Posters and content writing)
       </div>
-      <div class="ellipse-41 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
-      <div class="ellipse-42 border-2px-dove-gray"><label class="container"><input type="radio" checked="checked" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-41 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
+      <div class="ellipse-42 border-2px-dove-gray"><label class="container"><input type="checkbox" name="radio"><span class="checkmark"></span></label></div>
       <div class="text-12 montserrat-regular-normal-black-18px">
         SOS Help* (Involves taking to patients in emergency situations and dealing with news of death.)
       </div>
