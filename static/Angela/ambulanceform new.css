@@ -17,6 +17,7 @@
   top: -10px;
   width: 370px;
 }
+
 .radname {
   background-color: #dfdfdf;
   height: 30px;
@@ -27,6 +28,98 @@
   position: absolute;
   top: 5;
   width: 150;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.button {
+  border-radius: 10px;
+  background-color: #0a98c0;
+  height: 70px;
+  left: -5;
+  position: absolute;
+  top: -25;
+  width: 200px;
+  border: none;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 .state-ut {
   background-color: #dfdfdf;
