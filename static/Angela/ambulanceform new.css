@@ -17,6 +17,17 @@
   top: -10px;
   width: 370px;
 }
+.radname {
+  background-color: #dfdfdf;
+  height: 30px;
+  left: -20;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute;
+  top: 5;
+  width: 150;
+}
 .state-ut {
   background-color: #dfdfdf;
   height: 30px;
