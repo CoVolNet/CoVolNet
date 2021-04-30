@@ -1,12 +1,15 @@
 .ambulance-form-provider {
   align-items: flex-end;
-  background-color: var(--geyser);
+  background-color: rgba(209, 221, 235, 1);
   display: flex;
   flex-direction: column;
   height: 1900px;
   width: 1024px;
+
 }
 .ambulance-form-provider .about-us {
+  font-family: 'Open Sans' ,sans-serif;
+  font-weight: 600;
   letter-spacing: 0.30px;
   line-height: 40px;
   margin-left: 2px;
@@ -17,6 +20,8 @@
   width: 96px;
 }
 .ambulance-form-provider .contact-us {
+  font-family: 'Open Sans' , sans-serif;
+  font-weight: 600;
   letter-spacing: 0.30px;
   line-height: 40px;
   margin-left: 26px;
@@ -25,6 +30,8 @@
   white-space: nowrap;
 }
 .ambulance-form-provider .covid-19-india {
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
   letter-spacing: 0.30px;
   line-height: 40px;
   margin-left: 2px;
@@ -133,6 +140,8 @@
   min-width: 172px;
 }
 .ambulance-form-provider .help {
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
   left: 0;
   letter-spacing: 0.30px;
   line-height: 40px;
@@ -167,8 +176,9 @@
 }
 .ambulance-form-provider .overlap-group {
   align-items: flex-end;
+  font-family: 'Montserrat', sans-serif;
   align-self: center;
-  background-color: var(--white);
+  background-color: white;
   border-radius: 45px;
   display: flex;
   flex-direction: column;
@@ -179,8 +189,9 @@
   width: 869px;
 }
 .ambulance-form-provider .overlap-group1 {
+  font-family: 'Times New Roman', Times, serif;
   align-items: flex-start;
-  background-color: var(--white);
+  background-color: white;
   box-shadow: 0px 5px 10px #102b403d;
   display: flex;
   height: 86px;
@@ -254,6 +265,8 @@
   width: 110px;
 }
 .ambulance-form-provider .path-1 {
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
   height: 6px;
   left: 45px;
   object-fit: cover;
@@ -271,6 +284,8 @@
   width: 695px;
 }
 .ambulance-form-provider .place {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   left: 281px;
   letter-spacing: 0.30px;
   line-height: 40px;
@@ -376,6 +391,8 @@
   width: 708px;
 }
 .ambulance-form-provider .services {
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
   align-self: center;
   letter-spacing: 0.30px;
   line-height: 15px;
@@ -386,6 +403,8 @@
   white-space: nowrap;
 }
 .ambulance-form-provider .services-1 {
+  font-family: 'Open Sans' ,sans-serif;
+  font-weight: 600;
   letter-spacing: 0.30px;
   line-height: 40px;
   margin-left: 11px;
@@ -407,17 +426,17 @@
   text-decoration: underline;
 }
 .ambulance-form-provider .span1-1 {
-  color: var(--red2);
+  color: red;
   font-family: var(--font-family-montserrat-regular);
   font-size: var(--font-size-s2);
 }
 .ambulance-form-provider .span1-2 {
-  color: var(--red2);
+  color: red;
   font-family: var(--font-family-montserrat-regular);
   font-size: var(--font-size-m);
 }
 .ambulance-form-provider .span1-3 {
-  color: var(--red-22);
+  color: red;
   font-family: var(--font-family-montserrat-semibold);
   font-size: var(--font-size-m);
   font-weight: 600;
@@ -446,13 +465,13 @@
   width: 152px;
 }
 .ambulance-form-provider .text-1 {
-  color: var(--black);
-  font-family: var(--font-family-montserrat-bold);
-  font-size: var(--font-size-xl2);
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size:xx-large;
   font-weight: 700;
   letter-spacing: 0;
   line-height: 32px;
-  margin-left: 1px;
+  margin-left: 0px;
   min-height: 41px;
   width: 737px;
 }
@@ -492,9 +511,9 @@
   width: 270px;
 }
 .ambulance-form-provider .text-6 {
-  color: var(--black);
-  font-family: var(--font-family-montserrat-regular);
-  font-size: var(--font-size-s);
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16;
   height: 47px;
   letter-spacing: 0;
   line-height: 16px;
@@ -523,16 +542,17 @@
   width: 708px;
 }
 .ambulance-form-provider .title {
-  color: var(--gun-powder);
-  font-family: var(--font-family-montserrat-regular);
-  font-size: var(--font-size-xl);
-  left: 0;
-  letter-spacing: 0.70px;
-  line-height: 40px;
-  position: absolute;
-  top: 0;
-  white-space: nowrap;
-  width: 316px;
+  color: #413e66;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    left: 0;
+    letter-spacing: 0.70px;
+    line-height: 40px;
+    position: absolute;
+    top: -20;
+    white-space: nowrap;
+    width: 316px;
+    font-weight: 307;
 }
 .ambulance-form-provider .with-oxygen {
   height: 32px;
