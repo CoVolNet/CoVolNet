@@ -29,21 +29,6 @@
   top: 5;
   width: 150;
 }
-.nav-click:hover{
-  color:#1bb1dc ;
-
-}
-.nav-click:link{
-  color:#413e66;
-}
-/* .nav-click:active{
-  color: #1bb1dc; */
-/* } */
-/* .nav-click:active{
-  color: #1bb1dc;
-} */
-
-
 .container {
   display: block;
   position: relative;
