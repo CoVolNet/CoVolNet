@@ -6,11 +6,139 @@
   overflow: hidden;
   width: 1024px;
 }
+.fname {
+  background-color: #dfdfdf;
+  height: 30px;
+  width: 740px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  position: absolute;
+}
+.state-ut {
+  background-color: #dfdfdf;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute;
+
+  width: 300px;
+}
+.phonenumber {
+  background-color: #dfdfdf;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute;
+  width: 370px;
+  /* left: 150; */
+  /* top: -30px; */
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.radname {
+  background-color: #dfdfdf;
+  height: 30px;
+  left: -20;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute;
+  top: 5;
+  width: 450;
+}
+.button {
+  border-radius: 10px;
+  background-color: #0a98c0;
+  height: 70px;
+  left: -10;
+  position: absolute;
+  top: -60;
+  width: 200px;
+  border: none;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
 .ambulance-form-provider .about-us {
-  letter-spacing: 0.30px;
+  letter-spacing: 0.3px;
   line-height: 40px;
   margin-left: 2px;
-  margin-top: 2.0px;
+  margin-top: 2px;
   min-height: 22px;
   min-width: 96px;
   white-space: nowrap;
@@ -52,18 +180,18 @@
   width: 205px;
 }
 .ambulance-form-provider .contact-us {
-  letter-spacing: 0.30px;
+  letter-spacing: 0.3px;
   line-height: 40px;
   margin-left: 26px;
-  margin-top: 2.0px;
+  margin-top: 2px;
   min-height: 22px;
   white-space: nowrap;
 }
 .ambulance-form-provider .covid-19-india {
-  letter-spacing: 0.30px;
+  letter-spacing: 0.3px;
   line-height: 40px;
   margin-left: 2px;
-  margin-top: 2.0px;
+  margin-top: 2px;
   min-height: 22px;
   min-width: 140px;
   white-space: nowrap;
@@ -211,7 +339,7 @@
 }
 .ambulance-form-provider .help {
   left: 0;
-  letter-spacing: 0.30px;
+  letter-spacing: 0.3px;
   line-height: 40px;
   position: absolute;
   top: 0;
@@ -258,7 +386,7 @@
   border-radius: 45px;
   display: flex;
   flex-direction: column;
-  margin-right: 3.0px;
+  margin-right: 3px;
   margin-top: 61px;
   min-height: 2198px;
   padding: 64px 0;
@@ -322,7 +450,7 @@
 .ambulance-form-provider .overlap-group6 {
   height: 51px;
   margin-left: 68px;
-  margin-top: 9.0px;
+  margin-top: 9px;
   position: relative;
   width: 487px;
 }
@@ -341,7 +469,7 @@
 .ambulance-form-provider .overlap-group9 {
   height: 27px;
   margin-left: 29px;
-  margin-top: 2.0px;
+  margin-top: 2px;
   position: relative;
   width: 55px;
 }
@@ -371,10 +499,10 @@
   width: 695px;
 }
 .ambulance-form-provider .place {
-  letter-spacing: 0.30px;
+  letter-spacing: 0.3px;
   line-height: 40px;
   margin-left: 72px;
-  margin-top: 2.0px;
+  margin-top: 2px;
   min-height: 22px;
   min-width: 74px;
   white-space: nowrap;
@@ -513,19 +641,19 @@
 }
 .ambulance-form-provider .services {
   align-self: center;
-  letter-spacing: 0.30px;
+  letter-spacing: 0.3px;
   line-height: 15px;
   margin-left: 2px;
-  margin-top: 4.0px;
+  margin-top: 4px;
   min-height: 22px;
   min-width: 32px;
   white-space: nowrap;
 }
 .ambulance-form-provider .services-1 {
-  letter-spacing: 0.30px;
+  letter-spacing: 0.3px;
   line-height: 40px;
   margin-left: 11px;
-  margin-top: 2.0px;
+  margin-top: 2px;
   min-height: 22px;
   min-width: 92px;
   white-space: nowrap;
@@ -647,7 +775,7 @@
   color: var(--gun-powder);
   font-family: var(--font-family-montserrat);
   font-size: var(--font-size-xxl);
-  letter-spacing: 0.70px;
+  letter-spacing: 0.7px;
   line-height: 40px;
   min-height: 45px;
   min-width: 209px;
