@@ -1,0 +1,619 @@
+.ambulance-form-benf {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 2300px;
+  justify-content: center;
+  overflow: hidden;
+  width: 1024px;
+}
+.ambulance-form-benf .about-us {
+  letter-spacing: 0.30px;
+  line-height: 40px;
+  margin-left: 2px;
+  margin-top: 2.0px;
+  min-height: 22px;
+  min-width: 96px;
+  white-space: nowrap;
+  width: 96px;
+}
+.ambulance-form-benf .address {
+  left: 84px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 364px;
+  width: 204px;
+}
+.ambulance-form-benf .address-line-1 {
+  height: 41px;
+  left: 84px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 395px;
+  width: 247px;
+}
+.ambulance-form-benf .city-district {
+  height: 35px;
+  left: 83px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 613px;
+  width: 205px;
+}
+.ambulance-form-benf .contact-number {
+  height: 50px;
+  left: 81px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 880px;
+  width: 695px;
+}
+.ambulance-form-benf .contact-us {
+  letter-spacing: 0.30px;
+  line-height: 40px;
+  margin-left: 29px;
+  margin-top: 2.0px;
+  min-height: 22px;
+  white-space: nowrap;
+}
+.ambulance-form-benf .covid-19-india {
+  letter-spacing: 0.30px;
+  line-height: 40px;
+  margin-left: 2px;
+  margin-top: 2.0px;
+  min-height: 22px;
+  min-width: 140px;
+  white-space: nowrap;
+  width: 140px;
+}
+.ambulance-form-benf .ellipse-53 {
+  border-radius: 11.5px;
+  height: 23px;
+  left: 82px;
+  position: absolute;
+  top: 1213px;
+  width: 23px;
+}
+.ambulance-form-benf .ellipse-54 {
+  border-radius: 11.5px;
+  height: 23px;
+  left: 82px;
+  position: absolute;
+  top: 1262px;
+  width: 23px;
+}
+.ambulance-form-benf .ellipse-55 {
+  border-radius: 11.5px;
+  height: 23px;
+  left: 82px;
+  position: absolute;
+  top: 1311px;
+  width: 23px;
+}
+.ambulance-form-benf .ellipse-56 {
+  border-radius: 11.5px;
+  height: 23px;
+  left: 82px;
+  position: absolute;
+  top: 1360px;
+  width: 23px;
+}
+.ambulance-form-benf .ellipse-57 {
+  border-radius: 11.5px;
+  height: 23px;
+  left: 82px;
+  position: absolute;
+  top: 1777px;
+  width: 23px;
+}
+.ambulance-form-benf .ellipse-58 {
+  border-radius: 11.5px;
+  height: 23px;
+  left: 82px;
+  position: absolute;
+  top: 1826px;
+  width: 23px;
+}
+.ambulance-form-benf .ellipse-59 {
+  border-radius: 11.5px;
+  height: 23px;
+  left: 82px;
+  position: absolute;
+  top: 1409px;
+  width: 23px;
+}
+.ambulance-form-benf .ellipse-60 {
+  border-radius: 11.5px;
+  height: 23px;
+  left: 82px;
+  position: absolute;
+  top: 1458px;
+  width: 23px;
+}
+.ambulance-form-benf .ellipse-65 {
+  border-radius: 11.5px;
+  height: 23px;
+  left: 83px;
+  position: absolute;
+  top: 1593px;
+  width: 23px;
+}
+.ambulance-form-benf .ellipse-66 {
+  border-radius: 11.5px;
+  height: 23px;
+  left: 83px;
+  position: absolute;
+  top: 1642px;
+  width: 23px;
+}
+.ambulance-form-benf .group-7 {
+  align-items: flex-start;
+  display: flex;
+  height: 50px;
+  left: 81px;
+  min-width: 172px;
+  position: absolute;
+  top: 1920px;
+}
+.ambulance-form-benf .help {
+  left: 3px;
+  letter-spacing: 0.30px;
+  line-height: 40px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 47px;
+}
+.ambulance-form-benf .icu-ambulance {
+  height: 32px;
+  left: 126px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 1262px;
+  width: 210px;
+}
+.ambulance-form-benf .locality-town {
+  height: 35px;
+  left: 83px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 504px;
+  width: 205px;
+}
+.ambulance-form-benf .other {
+  height: 32px;
+  left: 126px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 1458px;
+  width: 110px;
+}
+.ambulance-form-benf .overlap-group {
+  align-items: center;
+  background-color: #e5b3b4;
+  display: flex;
+  flex-direction: column;
+  min-height: 2300px;
+  width: 1028px;
+}
+.ambulance-form-benf .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  box-shadow: 0px 5px 10px #102b403d;
+  display: flex;
+  height: 86px;
+  justify-content: flex-end;
+  margin-right: 6.0px;
+  min-width: 1024px;
+  padding: 19.5px 24px;
+}
+.ambulance-form-benf .overlap-group2 {
+  height: 2036px;
+  margin-right: 3.0px;
+  margin-top: 55px;
+  position: relative;
+  width: 869px;
+}
+.ambulance-form-benf .overlap-group3 {
+  height: 50px;
+  position: relative;
+  width: 172px;
+}
+.ambulance-form-benf .overlap-group4 {
+  height: 27px;
+  margin-left: 26px;
+  margin-top: 2.0px;
+  position: relative;
+  width: 55px;
+}
+.ambulance-form-benf .path-2 {
+  height: 6px;
+  left: 48px;
+  object-fit: cover;
+  position: absolute;
+  top: 21px;
+  width: 11px;
+}
+.ambulance-form-benf .patient-name {
+  left: 81px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 218px;
+  width: 708px;
+}
+.ambulance-form-benf .place {
+  letter-spacing: 0.30px;
+  line-height: 40px;
+  margin-left: 72px;
+  margin-top: 2.0px;
+  min-height: 22px;
+  min-width: 74px;
+  white-space: nowrap;
+  width: 74px;
+}
+.ambulance-form-benf .place-1 {
+  height: 32px;
+  left: 127px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 1642px;
+  width: 393px;
+}
+.ambulance-form-benf .place-2 {
+  height: 32px;
+  left: 126px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 1826px;
+  width: 110px;
+}
+.ambulance-form-benf .please-specify {
+  height: 32px;
+  left: 309px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 1458px;
+  width: 152px;
+}
+.ambulance-form-benf .rectangle-42 {
+  background-color: #cf6365;
+  border-radius: 10px;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 170px;
+}
+.ambulance-form-benf .rectangle-48 {
+  background-color: var(--white);
+  border-radius: 45px;
+  height: 2036px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 869px;
+}
+.ambulance-form-benf .rectangle-49 {
+  background-color: var(--pippin);
+  height: 51px;
+  left: 82px;
+  position: absolute;
+  top: 266px;
+  width: 706px;
+}
+.ambulance-form-benf .rectangle-53 {
+  background-color: var(--pippin);
+  height: 51px;
+  left: 82px;
+  position: absolute;
+  top: 919px;
+  width: 370px;
+}
+.ambulance-form-benf .rectangle-54 {
+  background-color: var(--pippin);
+  height: 51px;
+  left: 81px;
+  position: absolute;
+  top: 1057px;
+  width: 370px;
+}
+.ambulance-form-benf .rectangle-55 {
+  background-color: var(--pippin);
+  height: 51px;
+  left: 459px;
+  position: absolute;
+  top: 1444px;
+  width: 337px;
+}
+.ambulance-form-benf .rectangle-56 {
+  background-color: var(--pippin);
+  height: 51px;
+  left: 82px;
+  position: absolute;
+  top: 785px;
+  width: 370px;
+}
+.ambulance-form-benf .rectangle-69 {
+  background-color: var(--pippin);
+  height: 51px;
+  left: 84px;
+  position: absolute;
+  top: 434px;
+  width: 705px;
+}
+.ambulance-form-benf .rectangle-70 {
+  background-color: var(--pippin);
+  height: 51px;
+  left: 83px;
+  position: absolute;
+  top: 543px;
+  width: 331px;
+}
+.ambulance-form-benf .rectangle-71 {
+  background-color: var(--pippin);
+  height: 51px;
+  left: 83px;
+  position: absolute;
+  top: 652px;
+  width: 331px;
+}
+.ambulance-form-benf .rectangle-72 {
+  background-color: var(--pippin);
+  height: 51px;
+  left: 459px;
+  position: absolute;
+  top: 652px;
+  width: 331px;
+}
+.ambulance-form-benf .required-fields {
+  left: 81px;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: absolute;
+  top: 178px;
+  width: 708px;
+}
+.ambulance-form-benf .services {
+  align-self: center;
+  letter-spacing: 0.30px;
+  line-height: 15px;
+  margin-left: 2px;
+  margin-top: 4.0px;
+  min-height: 22px;
+  min-width: 32px;
+  white-space: nowrap;
+}
+.ambulance-form-benf .services-1 {
+  letter-spacing: 0.30px;
+  line-height: 40px;
+  margin-left: 11px;
+  margin-top: 2.0px;
+  min-height: 22px;
+  min-width: 92px;
+  white-space: nowrap;
+  width: 92px;
+}
+.ambulance-form-benf .span0 {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+}
+.ambulance-form-benf .span1 {
+  color: var(--red2);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-m);
+}
+.ambulance-form-benf .span1-1 {
+  color: var(--red-22);
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+}
+.ambulance-form-benf .span1-2 {
+  color: var(--red2);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-s2);
+}
+.ambulance-form-benf .span1-3 {
+  color: var(--blue-ribbon);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-s2);
+  text-decoration: underline;
+}
+.ambulance-form-benf .state {
+  height: 35px;
+  left: 459px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 613px;
+  width: 205px;
+}
+.ambulance-form-benf .submit {
+  color: var(--white);
+  font-family: var(--font-family-montserrat-semibold);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  height: 30px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  width: 172px;
+}
+.ambulance-form-benf .text-1 {
+  color: var(--black);
+  font-family: var(--font-family-montserrat-bold);
+  font-size: var(--font-size-xl2);
+  font-weight: 700;
+  left: 82px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: 70px;
+  width: 737px;
+}
+.ambulance-form-benf .text-2 {
+  height: 45px;
+  left: 81px;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: absolute;
+  top: 1003px;
+  white-space: nowrap;
+  width: 668px;
+}
+.ambulance-form-benf .text-3 {
+  left: 82px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 1172px;
+  width: 708px;
+}
+.ambulance-form-benf .text-4 {
+  height: 32px;
+  left: 126px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 1311px;
+  width: 270px;
+}
+.ambulance-form-benf .text-5 {
+  left: 82px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 1736px;
+  width: 708px;
+}
+.ambulance-form-benf .text-6 {
+  left: 81px;
+  letter-spacing: 0;
+  line-height: 15px;
+  position: absolute;
+  top: 131px;
+  width: 708px;
+}
+.ambulance-form-benf .text-7 {
+  align-self: flex-end;
+  color: var(--black);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-s);
+  height: 47px;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-right: 9px;
+  margin-top: 49px;
+  min-height: 47px;
+  min-width: 941px;
+  width: 941px;
+}
+.ambulance-form-benf .text-8 {
+  height: 40px;
+  left: 81px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 747px;
+  width: 695px;
+}
+.ambulance-form-benf .text-9 {
+  left: 83px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 1552px;
+  width: 708px;
+}
+.ambulance-form-benf .title {
+  color: var(--gun-powder);
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-xxl);
+  letter-spacing: 0.70px;
+  line-height: 40px;
+  min-height: 45px;
+  min-width: 209px;
+  white-space: nowrap;
+  width: 209px;
+}
+.ambulance-form-benf .with-oxygen {
+  height: 32px;
+  left: 126px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 1213px;
+  width: 210px;
+}
+.ambulance-form-benf .without-oxygen {
+  height: 32px;
+  left: 126px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 1409px;
+  width: 193px;
+}
+.ambulance-form-benf .x24x7-service {
+  height: 32px;
+  left: 126px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 1360px;
+  width: 193px;
+}
+.ambulance-form-benf .yes {
+  height: 32px;
+  left: 127px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 1593px;
+  width: 193px;
+}
+.ambulance-form-benf .yes-1 {
+  height: 32px;
+  left: 126px;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: absolute;
+  top: 1777px;
+  width: 110px;
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  box-sizing: border-box;
+}
+.container-center-horizontal {
+  pointer-events: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
