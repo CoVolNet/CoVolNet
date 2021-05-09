@@ -1,0 +1,58 @@
+.body {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.volunteerFrm {
+  background-color: rgba(209, 221, 235, 1);
+  width: 70rem;
+  height: auto;
+}
+.whitebkg {
+  margin: 50px;
+  background-color: white;
+  border-radius: 20px;
+  padding-bottom: 90px;
+  padding-left: 50px;
+}
+.heading {
+  font-family: "Montserrat", sans-serif;
+  padding: 50px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 300;
+}
+.required-fields {
+  color: red;
+  font-family: var(--font-family-montserrat-regular);
+  font-size: var(--font-size-s);
+  letter-spacing: 0;
+  line-height: 15px;
+}
+.fullName {
+  padding-right: 50px;
+}
+.padding {
+  margin-top: 5rem;
+}
+.locationBoxes {
+  display: flex;
+  justify-content: space-between;
+}
+.State {
+  width: 25rem;
+}
+.district {
+  padding-right: 50px;
+}
+.languages {
+  margin-top: 2rem;
+}
+.other {
+  display: flex;
+}
+.otherInput {
+  padding-top: 12px;
+  padding-left: 70px;
+}
