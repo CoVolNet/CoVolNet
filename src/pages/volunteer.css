@@ -40,19 +40,24 @@
   display: flex;
   justify-content: space-between;
 }
-.State {
+.Width {
   width: 25rem;
 }
 .district {
   padding-right: 50px;
 }
-.languages {
-  margin-top: 2rem;
-}
+
 .other {
   display: flex;
 }
 .otherInput {
   padding-top: 12px;
   padding-left: 70px;
+}
+
+.radiobtnSpace {
+  margin-top: 2rem;
+}
+.warning {
+  padding: 2rem;
 }
