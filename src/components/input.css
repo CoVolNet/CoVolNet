@@ -63,3 +63,8 @@
 .children {
   font-family: var(--font-family-montserrat);
 }
+@media only screen and (max-width: 600px) {
+  .children {
+    margin-right: 2rem;
+  }
+}

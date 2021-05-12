@@ -17,7 +17,7 @@ export const Volunteer = () => {
       <div className="volunteerFrm">
         {/*  -----------------------------------------------------------------------White background ----------------------------------------------------------------------- */}
         <div className="whitebkg">
-          <div className="heading">CovolNet Volunteer Form</div>
+          <div className="heading">CoVolNet Volunteer Form</div>
           <div>
             <div className="required-fields">*Required fields</div>
           </div>
@@ -47,7 +47,7 @@ export const Volunteer = () => {
           </div>
           {/*  -----------------------------------------------------------------------Language of comunication ----------------------------------------------------------------------- */}
           <div className="padding">
-            <div>
+            <div className="Language">
               {" "}
               Preferred Language(s) for communication - Please tick all
               applicable <Star />
@@ -86,8 +86,10 @@ export const Volunteer = () => {
               </InputFields>
             </div>
             <div className="padding">
-              If WhatsApp number is different to above, please provide that
-              below
+              <div className="Language">
+                If WhatsApp number is different to above, please provide that
+                below
+              </div>
               <div className="Width">
                 {/* Whatsapp Number */}
                 <InputFields
@@ -99,8 +101,10 @@ export const Volunteer = () => {
           </div>
           {/* -------------------------------------------------------------------Preferred Volunterring days  -----------------------------------------------------------------------*/}
           <div className="padding">
-            Preferred Volunteering Days (Choose multiple if applicable)
-            <Star />
+            <div className="Language">
+              Preferred Volunteering Days (Choose multiple if applicable)
+              <Star />
+            </div>
             <div className="radiobtnSpace">
               <Radiobtns name="volunteeringDays" type="checkbox">
                 Monday
@@ -139,8 +143,10 @@ export const Volunteer = () => {
           </div>
           {/* --------------------------------------------------Preferred Timings  -----------------------------------------------------------------------*/}
           <div className="padding">
-            Preferred Timings (Choose multiple if applicable, Timing in IST)
-            <Star />
+            <div className="Language">
+              Preferred Timings (Choose multiple if applicable, Timing in IST)
+              <Star />
+            </div>
             <div className="radiobtnSpace">
               <Radiobtns type="checkbox" name="volunteeringTimes">
                 7am - 10am
@@ -203,7 +209,9 @@ export const Volunteer = () => {
           </div>
           {/*   -----------------------------------------------------------------------Preffered Work  ----------------------------------------------------------------------- */}
           <div className="padding">
-            Preferred Work (Choose multiple if applicable) <Star />
+            <div className="Language">
+              Preferred Work (Choose multiple if applicable) <Star />
+            </div>
             <div className="radiobtnSpace">
               <Radiobtns type="checkbox" name="preferredwrk">
                 Verification of Information for social media and SOS calls
@@ -224,8 +232,10 @@ export const Volunteer = () => {
           </div>
           {/* -------------------------------------------------------------------------On Discord?-------------------------------------------------------------------- */}
           <div className="padding">
-            Are you on Discord or are willing to get on Discord? (A free
-            community app)* <Star />
+            <div className="Language">
+              Are you on Discord or are willing to get on Discord? (A free
+              community app)* <Star />
+            </div>
             <div className="radiobtnSpace">
               <Radiobtns type="radio" name="discord">
                 Yes
@@ -239,8 +249,10 @@ export const Volunteer = () => {
           </div>
           {/* ------------------------------------------------------------Another Skills???---------------------------------------------------------------------------- */}
           <div className="padding">
-            Specific skills you'd like to specify that could help (eg. Tech,
-            Content Writing, Design etc)
+            <div className="Language">
+              Specific skills you'd like to specify that could help (eg. Tech,
+              Content Writing, Design etc)
+            </div>
             <div className="Width">
               <InputFields placeholder="NILL"></InputFields>
             </div>

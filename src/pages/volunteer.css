@@ -14,11 +14,10 @@
   background-color: white;
   border-radius: 20px;
   padding-bottom: 90px;
-  padding-left: 50px;
 }
 .heading {
   font-family: "Montserrat", sans-serif;
-  padding: 50px;
+  padding: 50px 0px 50px 0px;
   text-align: center;
   font-size: xx-large;
   font-weight: 300;
@@ -60,4 +59,43 @@
 }
 .warning {
   padding: 2rem;
+}
+@media screen and (min-width: 600px) {
+  .whitebkg {
+    padding-left: 2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .volunteerFrm {
+    background-color: rgba(209, 221, 235, 1);
+
+    width: 100%;
+  }
+  .whitebkg {
+    margin: 0;
+    border-radius: 20px;
+    padding-bottom: 90px;
+    padding-left: 0.5rem;
+  }
+  .heading {
+    font-family: "Montserrat", sans-serif;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 300;
+  }
+  .locationBoxes {
+    flex-direction: column;
+  }
+  .Width {
+    width: 15rem;
+  }
+
+  .other {
+    flex-direction: column;
+  }
+  .otherInput {
+    padding-left: 50px;
+    width: 15rem;
+  }
 }
