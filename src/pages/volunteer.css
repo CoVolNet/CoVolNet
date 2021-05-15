@@ -1,101 +1,90 @@
 .body {
-  font-family: "Montserrat", sans-serif;
   width: 100%;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: center;
+  font-size: small;
 }
 .volunteerFrm {
   background-color: rgba(209, 221, 235, 1);
-  width: 70rem;
-  height: auto;
+  padding: 2rem;
 }
 .whitebkg {
-  margin: 50px;
+  display: flex;
   background-color: white;
   border-radius: 20px;
-  padding-bottom: 90px;
+  padding: 2rem;
 }
 .heading {
-  font-family: "Montserrat", sans-serif;
-  padding: 50px 0px 50px 0px;
   text-align: center;
   font-size: xx-large;
-  font-weight: 300;
+  font-family: var(--font-family-montserrat-regular);
+  font-weight: 500;
 }
 .required-fields {
   color: red;
   font-family: var(--font-family-montserrat-regular);
   font-size: var(--font-size-s);
   letter-spacing: 0;
-  line-height: 15px;
+  padding: 1.5rem 0 1.5rem 0;
 }
-.fullName {
-  padding-right: 50px;
-}
+
 .padding {
-  margin-top: 5rem;
+  padding-top: 2.5rem;
 }
-.locationBoxes {
+.radiobtnSpace {
+  padding: 1rem 0 1rem 0;
+}
+.other {
   display: flex;
   justify-content: space-between;
 }
-.Width {
-  width: 25rem;
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
 }
-.district {
-  padding-right: 50px;
-}
-
-.other {
-  display: flex;
-}
-.otherInput {
-  padding-top: 12px;
-  padding-left: 70px;
-}
-
-.radiobtnSpace {
+.button {
+  border-radius: 10px;
+  background-color: #0a98c0;
+  height: 60 px;
+  left: -10;
+  top: -60;
+  width: 150px;
+  border: none;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
   margin-top: 2rem;
 }
-.warning {
-  padding: 2rem;
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
-@media screen and (min-width: 600px) {
-  .whitebkg {
-    padding-left: 2rem;
-  }
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
 }
-@media only screen and (max-width: 600px) {
-  .volunteerFrm {
-    background-color: rgba(209, 221, 235, 1);
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 
-    width: 100%;
-  }
-  .whitebkg {
-    margin: 0;
-    border-radius: 20px;
-    padding-bottom: 90px;
-    padding-left: 0.5rem;
-  }
-  .heading {
-    font-family: "Montserrat", sans-serif;
-    padding: 50px 0px 50px 0px;
-    text-align: center;
-    font-size: x-large;
-    font-weight: 300;
-  }
-  .locationBoxes {
-    flex-direction: column;
-  }
-  .Width {
-    width: 15rem;
-  }
-
-  .other {
-    flex-direction: column;
-  }
-  .otherInput {
-    padding-left: 50px;
-    width: 15rem;
+@media only screen and (min-width: 640px) {
+  .body {
+    font-size: medium;
   }
 }
