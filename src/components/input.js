@@ -2,11 +2,8 @@ import "./input.css";
 
 export const Radiobtns = ({ children, type, name, id, changeValue }) => {
   function changes(name) {
-    var x = document.getElementsByName("language");
-    var i = 0;
-    for (i = 0; i < x.length < 0; i++) {
-      x[i].checked = true;
-    }
+    var x = document.querySelectorAll(`input[name=${name}]:checked`);
+    changeValue(x);
   }
   return (
     <div className="radioBtns">
@@ -15,12 +12,9 @@ export const Radiobtns = ({ children, type, name, id, changeValue }) => {
           type={type}
           name={name}
           id={id}
-          // onClick={() => {
-          //   changes(name);
-          // }}
-          // onChange={() => {
-          //  changeValue(document.getElementById(id).checked ? true : false);
-          // }}
+          onChange={() => {
+            changes(name);
+          }}
         />
         <span className="checkmark"></span>
       </label>

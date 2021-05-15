@@ -15,32 +15,26 @@ export const Volunteer = () => {
   const [location, setLocation] = useState("");
   const [district, setDistrict] = useState("");
   const [communication, setCommunication] = useState(false);
+  const [phone, setPhone] = useState("");
   const [volDay, setVoluunteerDays] = useState(false);
   const [volTimes, setVolTimes] = useState(false);
-  const [phone, setPhone] = useState("");
-
-  var x = document.getElementsByName("language");
-  var i;
-  for (i = 0; i < x.length; i++) {
-    if (x[i].type === "checkbox") {
-      x[i] = true;
-    }
-  }
+  const [work, setwork] = useState(false);
+  const [discord, setDiscord] = useState(false);
 
   function clicked() {
     console.log(name);
-    console.log(phone);
+    console.log(location);
+    console.log(district);
     console.log(communication);
+    console.log(phone);
     console.log(volDay);
     console.log(volTimes);
-    console.log(document.getElementsByName("language"));
-    // var x = document.getElementsByName("language");
-    // var i;
-    // for (i = 0; i < x.length; i++) {
-    //   if (x[i].type === "checkbox") {
-    //     if (x[i].checked !== true) x[i] = true;
-    //   }
-    // }
+    console.log(work);
+    console.log(discord);
+    // const checkbox = document.querySelectorAll(
+    //   'input[name="language"]:checked'
+    // );
+    // console.log(checkbox.length);
   }
 
   return (
@@ -153,7 +147,7 @@ export const Volunteer = () => {
                   {/* Whatsapp Number */}
                   <InputFields
                     placeholder="123456789"
-                    id="phnonumber"
+                    id="whatsapp"
                   ></InputFields>
                 </div>
               </div>
@@ -361,6 +355,7 @@ export const Volunteer = () => {
                   type="checkbox"
                   name="preferredwrk"
                   id="verification"
+                  changeValue={setwork}
                 >
                   Verification of Information for social media and SOS calls
                 </Radiobtns>
@@ -370,13 +365,19 @@ export const Volunteer = () => {
                   type="checkbox"
                   name="preferredwrk"
                   id="contentwriting"
+                  changeValue={setwork}
                 >
                   Collate and put together Information (Posters and content
                   writing)
                 </Radiobtns>
               </div>
               <div className="radiobtnSpace">
-                <Radiobtns type="checkbox" name="preferredwrk" id="sos">
+                <Radiobtns
+                  type="checkbox"
+                  name="preferredwrk"
+                  id="sos"
+                  changeValue={setwork}
+                >
                   SOS Help* (Involves talking to patients in emergency
                   situations and dealing with news of death.)
                 </Radiobtns>
@@ -389,12 +390,22 @@ export const Volunteer = () => {
                 community app) <Star />
               </div>
               <div className="radiobtnSpace">
-                <Radiobtns type="radio" name="discord" id="yes">
+                <Radiobtns
+                  type="radio"
+                  name="discord"
+                  id="yes"
+                  changeValue={setDiscord}
+                >
                   Yes
                 </Radiobtns>
               </div>
               <div className="radiobtnSpace">
-                <Radiobtns type="radio" name="discord" id="no">
+                <Radiobtns
+                  type="radio"
+                  name="discord"
+                  id="no"
+                  changeValue={setDiscord}
+                >
                   No
                 </Radiobtns>
               </div>
@@ -410,20 +421,20 @@ export const Volunteer = () => {
               </div>
             </div>
             {/*---------------------------------------------------------------------------- Submit btn---------------------------------------------------------------------------- */}
-            {
-              // name.length > 0 &&
-              // phone.length > 0 &&
-              // location.length > 0 &&
-              // district.length > 0 &&
-              // communication && volDay && volTimes
-              true ? (
-                <button className="button" id="open-button" onClick={clicked}>
-                  <span style={{ color: "white" }}>Submit</span>
-                </button>
-              ) : (
-                ""
-              )
-            }
+            {name.length > 0 &&
+            location.length > 0 &&
+            district.length > 0 &&
+            communication.length > 0 &&
+            phone.length > 0 &&
+            volDay.length > 0 &&
+            work.length > 0 &&
+            discord.length > 0 ? (
+              <button className="button" id="open-button" onClick={clicked}>
+                <span style={{ color: "white" }}>Submit</span>
+              </button>
+            ) : (
+              ""
+            )}
           </div>
         </div>
         <div className="warning">
