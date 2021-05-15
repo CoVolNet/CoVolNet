@@ -17,7 +17,7 @@ export const Volunteer = () => {
   const [communication, setCommunication] = useState(false);
   const [phone, setPhone] = useState("");
   const [whatsapp, setWhatsapp] = useState("");
-
+  const [other, setOther] = useState("");
   const [volDay, setVoluunteerDays] = useState(false);
   const [volTimes, setVolTimes] = useState(false);
   const [insta, setInsta] = useState("");
@@ -128,6 +128,7 @@ export const Volunteer = () => {
                     placeholder="other"
                     id="otherLanguage"
                     disabled={disabled}
+                    changeValue={setOther}
                   ></InputFields>
                 </div>
               </div>
