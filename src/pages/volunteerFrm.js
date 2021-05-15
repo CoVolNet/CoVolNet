@@ -16,10 +16,15 @@ export const Volunteer = () => {
   const [district, setDistrict] = useState("");
   const [communication, setCommunication] = useState(false);
   const [phone, setPhone] = useState("");
+  const [whatsapp, setWhatsapp] = useState("");
+
   const [volDay, setVoluunteerDays] = useState(false);
   const [volTimes, setVolTimes] = useState(false);
+  const [insta, setInsta] = useState("");
+  const [Twitter, setTwitter] = useState("");
   const [work, setwork] = useState(false);
   const [discord, setDiscord] = useState(false);
+  const [skills, setSkills] = useState("");
 
   function clicked() {
     console.log(name);
@@ -31,6 +36,7 @@ export const Volunteer = () => {
     console.log(volTimes);
     console.log(work);
     console.log(discord);
+    alert("form submitted");
     // const checkbox = document.querySelectorAll(
     //   'input[name="language"]:checked'
     // );
@@ -148,6 +154,7 @@ export const Volunteer = () => {
                   <InputFields
                     placeholder="123456789"
                     id="whatsapp"
+                    changeValue={setWhatsapp}
                   ></InputFields>
                 </div>
               </div>
@@ -339,10 +346,22 @@ export const Volunteer = () => {
             <div className="padding locationBoxes">
               {/*  -----------------------------------------------------------------------Social Media handle ----------------------------------------------------------------------- */}
               <div className="Width">
-                <InputFields placeholder="Instagram">Instagram</InputFields>
+                <InputFields
+                  placeholder="Instagram"
+                  id="instagram"
+                  changeValue={setInsta}
+                >
+                  Instagram
+                </InputFields>
               </div>
               <div className="Width district">
-                <InputFields placeholder="Twitter">Twitter</InputFields>
+                <InputFields
+                  placeholder="Twitter"
+                  id="twitter"
+                  changeValue={setTwitter}
+                >
+                  Twitter
+                </InputFields>
               </div>
             </div>
             {/*   -----------------------------------------------------------------------Preffered Work  ----------------------------------------------------------------------- */}
@@ -417,7 +436,11 @@ export const Volunteer = () => {
                 Content Writing, Design etc)
               </div>
               <div className="Width">
-                <InputFields placeholder="NILL"></InputFields>
+                <InputFields
+                  placeholder="NILL"
+                  id="otherSkils"
+                  changeValue={setSkills}
+                ></InputFields>
               </div>
             </div>
             {/*---------------------------------------------------------------------------- Submit btn---------------------------------------------------------------------------- */}
