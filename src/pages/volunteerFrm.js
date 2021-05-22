@@ -1,9 +1,11 @@
 import { useState } from "react";
-import { Radiobtns, InputFields } from "../components";
+import { Radiobtns, InputFields, ThankYou } from "../components";
+
 import "./volunteer.css";
 const Star = () => {
   return <span style={{ color: "red" }}>*</span>;
 };
+
 export const Volunteer = () => {
   const [disabled, setDisabled] = useState(true);
   function changeDisabled() {
@@ -11,6 +13,7 @@ export const Volunteer = () => {
     if (element.checked) setDisabled(false);
     else setDisabled(true);
   }
+
   const [name, setName] = useState("");
   const [location, setLocation] = useState("");
   const [district, setDistrict] = useState("");
@@ -25,8 +28,10 @@ export const Volunteer = () => {
   const [work, setwork] = useState(false);
   const [discord, setDiscord] = useState(false);
   const [skills, setSkills] = useState("");
+  const [clickedBtn, setClickedBtn] = useState(false);
 
   function clicked() {
+    setClickedBtn(true);
     console.log(name);
     console.log(location);
     console.log(district);
@@ -36,11 +41,6 @@ export const Volunteer = () => {
     console.log(volTimes);
     console.log(work);
     console.log(discord);
-    alert("form submitted");
-    // const checkbox = document.querySelectorAll(
-    //   'input[name="language"]:checked'
-    // );
-    // console.log(checkbox.length);
   }
 
   return (
@@ -459,6 +459,7 @@ export const Volunteer = () => {
             ) : (
               ""
             )}
+            <ThankYou clicked={clickedBtn} />
           </div>
         </div>
         <div className="warning">
